@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+    
+
+<head>
+        <title>Avinash Singh</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel = "stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+        
+        <link rel = "icon" type="image/jpg" href="img/AJ.png">
+        <link rel = "stylesheet" type="text/css" href="css/index.css">
+        <link rel = "stylesheet" type="text/css" href="css/w3.css">
+        <!-- <link rel = "stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+        <style>
+            .page-top{
+     background-color:#1d1d1d !important;
+     padding-top:3%;
+}
+
+#demo {
+  height:100%;
+  position:relative;
+  overflow:hidden;
+}
+
+
+.green{
+  background-color:#6fb936;
+}
+        .thumb{
+            margin-bottom: 30px;
+        }
+        
+        .page-top{
+            margin-top:85px;
+        }
+
+   
+img.zoom {
+    width: 100%;
+    height: 200px;
+    border-radius:5px;
+    object-fit:cover;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+        
+ 
+.transition {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+    .modal-header {
+   
+     border-bottom: none;
+}
+    .modal-title {
+        color:#000;
+    }
+    .modal-footer{
+      display:none;  
+    }
+        </style>
+    </head>
+    <body>
+        <a name="top"></a>
+        <!--Navigation-->
+        <div class="w3-row">
+            <div class="w3-col w3-sidebar w3-black w3-bar-block" id="sidebar" style="width:20%; position: relative;">
+                <div style="position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%);">
+                <img src="img/avinash.jpg" class="w3-image w3-circle profile-img ">
+                <a href="#about" class="w3-bar-item w3-center button w3-large">About</a>
+                <a href="#education" class="w3-bar-item button w3-center w3-large">Education</a>
+                <a href="#skills" class="w3-bar-item button w3-center w3-large">Skills</a>
+                <a href="#experience" class="w3-bar-item button w3-center w3-large">Experience</a>
+                <a href="#social-work" class="w3-bar-item button w3-center w3-large">Social Work</a>
+                <a href="#award" class="w3-bar-item button w3-center w3-large">Achievements, Awards and Certificates</a>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="w3-bar-block" style="font-size: 2rem;">
+                <button class="w3-xxxlarge w3-bar-item" id="navbar-button" onclick="toggleNavigation()">☰</button><!--☰ = &#9776;-->
+                <div id="navbar-list" class="w3-bar-block">
+                    <a href="#about" class="w3-bar-item button w3-center">About</a>
+                    <a href="#education" class="w3-bar-item button w3-center">Education</a>
+                    <a href="#skills" class="w3-bar-item button w3-center">Skills</a>
+                    <a href="#experience" class="w3-bar-item button w3-center">Experience</a>
+                    <a href="#social-work" class="w3-bar-item button w3-center">Social Work</a>
+                    <a href="#award" class="w3-bar-item button w3-center">Achievements, Awards and Certificates</a>
+                </div>
+                <img src="img/avinash.jpg" class="w3-image w3-circle profile-img w3-bar-item">
+            </div>
+        </div>
+
+        <!--button to top-->
+        <div class="scrollTop"><a href="#top"><i class="fas fa-chevron-circle-up fa-3x"></i></a></div>
+
+        <!--Content-->
+        <div class="container w3-rest">
+
+            <div class="about w3-container">
+                <a name="about"></a>
+                <h1 id="name">Avinash <span class="jain" style="color: yellow">Singh</span></h1>
+                <ul class="w3-bar contact" style="width: fit-content;">
+                    <li class="w3-bar-item">
+                        <a href="https://www.linkedin.com/in/avinash-singh-071b79175" target="_blank">
+                            <i class="fab fa-linkedin fa-2x" title="LinkedIn"></i>
+                        </a>
+                    </li>
+                    <li class="w3-bar-item">
+                        <a href="https://github.com/avinash201199" target="_blank">
+                            <i class="fab fa-github fa-2x" title="GitHub"></i>
+                        </a>
+                    </li>
+                    <li class="w3-bar-item">
+                        <a href="https://instagram.com/michael201199/" target="_blank">
+                            <i class="fab fa-instagram fa-2x" title="Instagram"></i>
+                        </a>
+                    </li>
+                    <li class="w3-bar-item">
+                        <a href="#" target="_blank">
+                            <i class="fab fa-twitter fa-2x" title="Twitter"></i>
+                        </a>
+                    </li>
+                    <li class="w3-bar-item">
+                        <a href="mailto:avinash201199@gmail.com" target="_blank">
+                            <i class="fa fa-envelope fa-2x" title="Mail"></i>
+                        </a>
+                    </li>
+                    <li class="w3-bar-item">
+                        <a href="https://drive.google.com/file/d/1GJiJFlAHwLOWEGCJgxCqJjsnQbwZNP9q/view?usp=drivesdk" target="_blank">
+                            <i class="fas fa-address-card fa-2x" title="Resume/CV"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <p>
+                Hello everyone,I am 3rd year student, pursuing Bachelor of Technology in Computer Science. 
+                I do competitive coding and explore Data Science concepts. I enjoy collaborating with people 
+                on works of similar interest. Apart from technical interests, I like dancing,watching movies, reading novels, 
+                playing Chess and badminton.
+                </p>
+            </div>
+
+            <hr style="margin-left: 1%; margin-right: 4%;">
+            
+            <!--percentage/cgpa to be added?-->
+            <div class="education w3-container">
+                <a name="education"></a>
+                <div class="subhead">
+                    <h1>Education</h1>
+                </div>
+
+                <div class="education-box w3-cell-row">
+                    <div class="w3-cell w3-rest">
+                        <div class="degree">Bachelor of Technology</div>
+                        <div class="branch">Computer Science & Engineering</div>
+                        <div class="institute">Bundelkhand University, Jhansi</div>
+                    </div>
+                    <div class="date w3-cell">2021</div>
+                </div>
+                
+                <div class="education-box w3-cell-row">
+                    <div class="w3-cell w3-rest">
+                        <div class="degree">Higher Secondary Education</div>
+                        <div class="branch">Science, Mathematics,Computer</div>
+                        <div class="institute">Mary Lucas School & College (ICSE),Prayagraj</div>
+                    </div>
+                    <div class="date w3-cell">2017</div>                        
+                </div>
+
+                <div class="education-box w3-cell-row">
+                    <div class="w3-cell w3-rest">
+                        <div class="degree">Secondary Education</div>
+                        <div class="institute">Mary Lucas School & College (ICSE),Prayagraj</div>
+                    </div>
+                    <div class="date w3-cell">2015</div>
+                </div>
+            </div>
+            
+            <hr style="margin-left: 1%; margin-right: 4%;">
+
+            <div class="skills w3-container">
+                <a name="skills"></a>
+                <div class="subhead">
+                    <h1>Skills</h1>
+                    <p><i><span class="proficient">Proficient</span>&emsp;<span class="intermediate">Intermediate</span>&emsp;<span class="beginner">Beginner</span></i></p>
+                </div>
+                <ul>
+                    <li><b class="skill-category">Programming:</b> <span class="proficient">Data Structures, Algorithm Design and Analysis,  Java,</span><span class="intermediate"> Python,</span><span class="beginner"> C</span> </li>
+                    <li>
+                        <b class="skill-category">Development:</b> <span class="proficient">Object Oriented Programming,</span> <span class="intermediate">Software Engineering,Web development,PHP
+                        <ul>
+                            <li><b class="skill-sub-category">&emsp;&emsp;Database:</b> <span class="proficient">Database Management Systems, MySQL,</span> <span class="intermediate">Firebase</span></li>
+                            <li><b class="skill-sub-category">&emsp;&emsp;Front-end:</b> <span class="proficient">HTML, <span class="intermediate">CSS, W3.CSS , Javascript</span></li>
+                        </ul>
+                    </li>
+                    <li><b class="skill-category">Data Science:</b> <span class="beginner">Machine Learning, Data Visualization</span> </li>
+                    <li><b class="skill-category">Soft Skills:</b> <span class="proficient">Teamwork, Leadership, Management,</span> <span class="intermediate">Public Speaking,Communication skill</span></li>
+                </ul>
+                <ul class="w3-bar coding-list" style="width: fit-content;">
+                    <li class="w3-bar-item">
+                        <a href="https://www.hackerrank.com/avinash201199" target="_blank">
+                            <img src="img/hackerrank.png" class="coding-icon" title="HackerRank">
+                            Hackerank
+                        </a>
+                    </li>
+                    <li class="w3-bar-item">
+                        <a href="https://leetcode.com/avinash201199/" target="_blank">
+                            <img src="img/leetcode.png" class="coding-icon" title="Leetcode">
+                            Leetcode
+                        </a>
+                    </li>
+                    <li class="w3-bar-item">
+                        <a href="https://auth.geeksforgeeks.org/user/aatmikjain/practice/" target="_blank">
+                            <img src="img/geeksforgeeks.png" class="coding-icon" title="GeeksforGeeks">
+                            GFG
+                        </a>
+                    </li>
+                    <li class="w3-bar-item">
+                        <a href="https://www.codechef.com/users/avinash201199/" target="_blank">
+                            <img src="img/codechef.png" class="coding-icon" title="CodeChef">
+                            CodeChef
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <hr style="margin-left: 1%; margin-right: 4%;">
+            
+            <div class="experience w3-container">
+                <a name="experience"></a>
+                <div class="subhead">
+                    <h1>Experience</h1>
+                </div>
+                <div class="w3-cell-row">
+                    <div class="w3-cell w3-mobile experience-cell">
+                        <div class="w3-bar-block">
+                            <div class="w3-bar-item tech" style="text-align: right;"><i class="fas fa-chevron-left" style="color:rgb(98, 240, 98)"></i> Technical</div>
+                            
+        
+                            <div class="w3-bar-item w3-hover-shadow experience-box">
+                                <div class="subhead company">
+                                    <a href="http://arisesociety.org/" target="_blank"><img src="img/arise.jpg" class="company-icon"> Arise Society,Rajasthan</a>
+                                </div>
+                                <div class="post">
+                                    Web Development Internship
+                                    <span class="date" style="float: right;">Jul to Aug 2020</span>
+                                </div>
+                                <div class="description">
+                                    <ul>
+                                        <li>ARISE is an Association of Researchers for Services and Empowerment, established in January, 2015.</li>
+                                        <li>ARISE is the first ever platform that works for Social Empowerment through Research. Research is the basic way to analyze the
+                                             societal issues to deal with the problems and to offer appropriate solutions. </li>
+                                    </ul>
+                                </div>
+                            </div>
+        
+                            <div class="w3-bar-item w3-hover-shadow experience-box">
+                                <div class="subhead company">
+                                    <a href="#" target="_blank"><img src="img/microsoft.png" class="company-icon">Microsoft AI Classroom Series</a>
+                                </div>
+                                <div class="post">
+                                    AI, Machine learning and Data Sciences
+                                    <span class="date" style="float: right;">Jan 2021</span>
+                                </div>
+                                <div class="description">
+                                    <ul>
+                                        <li>Microsoft AI Classroom series is an initiative by Microsoft in association with NASSCOM FutureSkills® and supported by GitHub to skill up students and future developers on new technologies</li>
+                                        <li>The three (3) hour session will cover key topics to introduce students to AI, Machine learning and Data Sciences topics with lab exercises. Each module will be introduced by an industry leader and subject matter expert</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="w3-bar-item w3-hover-shadow experience-box">
+                                <div class="subhead company">
+                                    <a href="https://forum.fossunited.org/" target="_blank"><img src="img/foss1.png" class="company-icon">Free and open-source software (FOSS)</a>
+                                </div>
+                                <div class="post">
+                                    <ul>
+                                        <li >open source project <span class="date" style="float: right;">Sep' 20 </span></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="description">
+                                    A project for FOSS where this application acts as a bridge between Donors and NGOs,it helps the donar to donate unused medicines to NGO and further these medicine are utilized by a needy person.At this platform NGOs 
+                                    can easily find their required donar in just few clicks.They can easily contact with each other.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-cell w3-mobile" style="width: 50%;">
+                        <div class="w3-bar-block">
+                            <div class="w3-bar-item tech" >Non-Technical <i class="fas fa-chevron-right" style="color:rgb(98, 240, 98)"></i></div>
+                            <div class="w3-bar-item w3-hover-shadow experience-box">
+                                <div class="s+bhead company">
+                                    <a href="https://www.scaler.com/" target="_blank"><img src="img/scalerAcademy.png" class="company-icon"> Scaler Academy</a>
+                                </div>
+                                <div class="post">
+                                    Campus Lead: Scaler Achiever Club
+                                    <span class="date" style="float: right;">Mar' 20 - Present</span>
+                                </div>
+                                <br class="br-job">
+                                <div class="description">
+                                    <ul>
+                                        <li>Encouraged students to improve coding skills by participating in company's practice and hiring tests.</li>
+                                        <li>Intermediated between the company and placement cell to invite company for recruitments.</li>
+                                        <li>Fourth best Quarterly Campus Lead</li>
+                                    </ul>
+                                </div>
+                            </div>
+        
+                            <div class="w3-bar-item w3-hover-shadow experience-box">
+                                <div class="subhead company">
+                                    <a href="https://www.geeksforgeeks.org/" target="_blank"><img src="img/geeksforgeeks.png" class="company-icon"> GeeksforGeeks</a>
+                                </div>
+                                <div class="post">
+                                    Campus Ambassador
+                                    <span class="date" style="float: right;">Jul' 18 - Apr' 19</span>
+                                </div>
+                                <div class="description">Promoted company's web platform to help students improve their technical skills.</div>
+                            </div>
+        
+                            <div class="w3-bar-item w3-hover-shadow experience-box">
+                                <div class="subhead company">
+                                    <a href="https://internshala.com/" target="_blank"><img src="img/internshala.jpg" class="company-icon"> Internshala</a>
+                                </div>
+                                <div class="post">
+                                    Student Partner (ISP)18<span class="date" style="float: right;">Aug 2020</span>
+                                </div>
+                                <div class="description">Motivated students of first and second year to enhance their skills and take internship even in their initial years of engineering.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="margin-left: 1%; margin-right: 4%;">
+
+            <div class="social-work w3-container">
+                <a name="social-work"></a>
+                <div class="subhead">
+                    <h1>Social Work</h1>
+                </div>
+                <div class="w3-hover-shadow social-work-box w3-cell-row">
+                    <div class="w3-cell w3-rest" style="padding-right: 5%;">
+                        <a href="https://hourofcode.com/" target="_blank" class="social-name">Hour of Code</a>
+                        <div class="description">Successfully pitched about the campaign to various school authorities and conducted sessions to introduce and promote Computer Science education to students of secondary classes. Hour of Code is a global non-profit campaign that aims to demystify 'code', to show that anybody can learn the basics, and to broaden participation in the field of computer science.</div>
+                    </div>
+                    <div class="date w3-cell multiyear">2018, 2019</div>
+                </div>
+            </div>
+
+            <hr style="margin-left: 1%; margin-right: 4%;">
+            
+            <div class="award w3-container">
+                <a name="award"></a>
+                <div class="subhead">
+                    <h1>Achievements, Awards and Certificates</h1>
+                </div>
+                <ul>
+                    <li><a href="https://drive.google.com/file/d/1vcjxLbdoB9R4trs4A_wYEcJGk107U7u5/view?usp=drivesdk" target="_blank">
+                        <div class="w3-cell-row">
+                            <div class="w3-cell w3-rest" style="padding-right: 5%;">Scholarship Winner<span class="description"> - Girlscript</span></div>
+                            <div class="w3-cell date">Fab' 21</div>
+                        </div>
+                    </a></li>
+                    
+                    <li><a href="https://www.hackerrank.com/certificates/c688447c9a85" target="_blank">
+                        <div class="w3-cell-row">
+                            <div class="w3-cell w3-rest" style="padding-right: 5%;">Java(Basic)<span class="description"> - HackerRank</span></div>
+                            <div class="w3-cell date">Jan' 21</div>
+                        </div>
+                    </a></li>
+                     <li><a href="https://www.hackerrank.com/certificates/c688447c9a85" target="_blank">
+                        <div class="w3-cell-row">
+                            <div class="w3-cell w3-rest" style="padding-right: 5%;">Microsoft AI Classroom Series
+                                <span class="description"> - Microsoft</span></div>
+                            <div class="w3-cell date">Jan' 21</div>
+                        </div>
+                    </a></li>
+                    <li><a href="https://www.hackerrank.com/certificates/e15b3ed97db0" target="_blank">
+                        <div class="w3-cell-row">
+                            <div class="w3-cell w3-rest" style="padding-right: 5%;">Python(Basic)<span class="description"> - HackerRank</span></div>
+                            <div class="w3-cell date">Jan' 21</div>
+                        </div>
+                    </a></li>
+                    <li><a href="https://drive.google.com/file/d/1MFBglanAujRx7LtMYXmEE5FV6PdZhQoJ/view?usp=drivesdk" target="_blank">
+                        <div class="w3-cell-row">
+                            <div class="w3-cell w3-rest" style="padding-right: 5%;">Web Development Internship<span class="description"> - Arise Society, Rajasthan</span></div>
+                            <div class="w3-cell date">Jul' 20</div>
+                        </div>
+                    </a></li>
+                    <li><a href="https://trainings.internshala.com/view_certificate/466532B3-F54B-D357-9A3F-3D1799DAD8D0/8854CEA4-17E8-106C-B474-5CB2A63973F1" target="_blank">
+                        <div class="w3-cell-row">
+                            <div class="w3-cell w3-rest" style="padding-right: 5%;">Cloud Computing with AWS<span class="description"> - Internshala</span></div>
+                            <div class="w3-cell date">Oct' 20</div>
+                        </div>
+                    </a></li>
+                    <li><a href="https://trainings.internshala.com/view_certificate/105EB5C6-AC48-3125-7882-D088225BC9FC/566C3033-F6AC-322E-1D40-5FD4992DBABA" target="_blank">
+                        <div class="w3-cell-row">
+                            <div class="w3-cell w3-rest" style="padding-right: 5%;">Data Science<span class="description"> -Internshala</span></div>
+                            <div class="w3-cell date">Oct' 20</div>
+                        </div>
+                    </a></li>
+                    <li><a href="https://trainings.internshala.com/view_certificate/A5A24AE0-9C8A-AD00-51AF-665EF4A569D7/520AAC7E-A7DF-4814-A5AC-EC036C0733FE" target="_blank">
+                        <div class="w3-cell-row">
+                            <div class="w3-cell w3-rest" style="padding-right: 5%;">Machine Learning with Python <span class="description"> -Internshala</span></div>
+                            <div class="w3-cell date">Aug' 20</div>
+                        </div>
+                    </a></li>
+                    <li><a href="https://drive.google.com/file/d/1hBEP1c5SmMjHncO_9yglxMLw9ot9YvYQ/view?usp=drivesdk" target="_blank">
+                        <div class="w3-cell-row">
+                            <div class="w3-cell w3-rest" style="padding-right: 5%;">Digital photography competition <span class="description"> -WORLD</span></div>
+                            <div class="w3-cell date">Aug' 20</div>
+                        </div>
+                    </a></li>
+                    
+                    
+                    
+                    <li><a href="https://www.coursera.org/account/accomplishments/verify/X6DST3XSSCTU" target="_blank">
+                        <div class="w3-cell-row">
+                            <div class="w3-cell w3-rest" style="padding-right: 5%;">Introduction to Artificial Intelligence(AI)<span class="description"> Coursera</span></div>
+                            <div class="w3-cell date">Jun' 20</div>
+                        </div>
+                    </a></li>
+                    
+                </ul>
+            </div>
+
+            <hr style="margin-left: 1%; margin-right: 4%;">
+            
+                
+            </div>
+
+
+            <hr style="margin-left: 1%; margin-right: 4%;">
+            <p class="footer">contact me at: <a href="mailto: avinash201199@gmail.com" target="_blank">avinash201199@gmail.com</a></p>
+        </div>
+        
+    </body>
+    <script>
+        function toggleNavigation() {
+          var x = document.getElementById("navbar-list");
+          if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+          } else { 
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+
+        window.addEventListener('scroll', function(){
+            var scroll = document.querySelector('.scrollTop');
+            scroll.classList.toggle("activeTop", window.scrollY>600)
+        });
+    </script>
+
+
+</html>
+

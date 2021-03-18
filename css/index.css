@@ -1,0 +1,411 @@
+body{
+    background-color: rgb(32, 32, 32);
+    margin: 2%;
+    margin-top: 0%;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+b{
+    font-size: 1.05rem;
+}
+
+#sidebar a{
+    padding: 1%;
+}
+
+.navbar{
+    display: none;
+}
+
+#navbar-button{
+    padding-right: 2%;
+    background: none;
+    /* height: 10rem;
+    font-size: 25rem; */
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: right;
+}
+
+#navbar-list{
+    display: none;
+}
+
+.profile-img{
+    transform: scale(0.9);
+    margin-bottom: 10%;
+    box-shadow: 0 0 15px white;
+}
+
+.button{
+    color: gray
+}
+
+.button:hover{
+    color: white;
+    text-shadow: 0 0 15px white;
+}
+
+.container{
+    margin-left: 22%;
+    margin-top: 15%;
+}
+
+#name{
+    font-size: 600%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.contact{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* linkedin */
+.contact li:hover .fa-linkedin {
+    color: #2867B2;
+    text-shadow: 0 0 15px #2867B2;
+    transition: all 0.5s ease;
+    }
+      
+/* github */
+.contact li:hover .fa-github {
+    color: white;
+    text-shadow: 0 0 15px white;
+    transition: all 0.5s ease;
+}
+
+/* instagram */  
+.contact li:hover .fa-instagram {
+    color: #bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+}
+
+/* twitter */
+.contact li:hover .fa-twitter {
+    color: #00aced;
+    text-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+}
+
+/* mail */
+.contact li:hover .fa-envelope {
+    color: #dd4b39;
+    text-shadow: 0 0 15px #dd4b39;
+    transition: all 0.5s ease;
+}
+
+/*resume*/
+.contact li:hover .fa-address-card {
+    color: gray;
+    text-shadow: 0 0 15px gray;
+    transition: all 0.5s ease;
+}    
+
+.about p{
+    margin-top: 5%;
+    font-size: 1.25rem;
+}
+
+.education {
+    text-align: left;
+    width: 96%;
+}
+
+.education-box{
+    margin-top: 3%;
+}
+
+.subhead h1{
+    font-size: 3.00rem;
+    color: rgb(181, 228, 171);
+}
+
+.degree{
+    font-size: 1.50rem;
+}
+
+.date{
+    text-align: right;
+    color: lightgray;
+}
+
+.branch, .institute{
+    color: lightgray;
+}
+
+.skills{
+    text-align: left;
+}
+
+.skills ul{
+    list-style: none;
+    padding: 0%;
+}
+
+.skills ul li{
+    padding-top: 0.5%;
+}
+
+.skill-category{
+    color: rgb(241, 220, 173);
+}
+
+.skill-sub-category{
+    font-weight: lighter;
+    color: rgb(241, 220, 173);
+}
+
+.proficient{
+    color: white;
+}
+
+.intermediate{
+    color: rgb(182, 181, 181);
+}
+
+.beginner{
+    color: gray;
+}
+
+.coding-list{
+    padding: 0;
+    margin: 0;
+}
+
+.coding-icon{
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.coding-icon:hover{
+    transform: scale(1.1);
+}
+
+.br-job{
+    display: block;
+}
+
+.experience{
+    width: 97%;
+}
+
+.experience-cell{
+    width: 65%;
+}
+
+.experience-box{
+    margin-top: 3%;
+}
+
+.company-icon{
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.company{
+    font-size: 1.5rem;
+}
+
+.description{
+    text-align: justify;
+    color: lightgray
+}
+
+.social-work{
+    text-align: left;
+    width: 96%;
+}
+
+.social-name{
+    font-size: 1.50rem;
+}
+
+.award{
+    text-align: left;
+    width: 96%;
+}
+
+.date{
+    white-space: nowrap;
+}
+
+.scrollTop{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 50%;
+    z-index: 10;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.scrollTop:hover{
+    box-shadow: 0 0 50px rgba(255, 255, 255, 1);
+}
+
+.scrollTop.activeTop{
+    visibility: visible;
+    opacity: 1;
+}
+
+.footer{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: -1%;
+}
+
+@media screen and (max-width: 1200px){
+    body{
+        text-align: center;
+    }
+
+    b{
+        font-size: 1.05em;
+    }
+
+    .w3-sidebar{
+        display: none;
+    }
+    
+    .navbar{
+        display: block;
+        text-align: right;
+    }
+
+    .profile-img{
+        transform: scale(0.7);
+        margin-top: -10%;
+        margin-bottom: -10%;
+        box-shadow: 0 0 25px white;
+    }
+
+    .container{
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+
+    #name{
+        font-size: 7rem;
+    }
+
+    .contact{
+        margin: 0 auto;
+    }
+
+    .about p{
+        text-align: justify;
+        font-size: 2rem;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .subhead h1{
+        font-size: 4rem;
+        color: rgb(181, 228, 171);
+    }
+
+    .education {
+        width: 95%;
+        margin-left: 2%;
+    }
+
+    .degree{
+        font-size: 2.5rem;
+    }
+    
+    .date{
+        font-size: 2rem;
+    }
+    
+    .branch, .institute{
+        font-size: 2rem;
+    }
+    
+    .skills{
+        width: 97%;
+        margin-left: 2%;
+        font-size: 2rem;
+    }
+    .skill-category, .skill-sub-category{
+        font-size: 2rem;
+    }
+
+    .coding-icon{
+        height: 8rem;
+    }
+
+    .br-job{
+        display: none;
+    }
+
+    .experience{
+        width: 100%
+    }
+
+    .experience-cell{
+        width: 100%;
+    }
+
+    .tech{
+        font-size: 2rem;
+    }
+
+    .company-icon{
+        height: 3.5rem;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .company{
+        font-size: 2.5rem;
+    }
+
+    .post{
+        font-size: 2rem;
+    }
+
+    .description{
+        margin-left: 2%;
+        font-size: 1.7rem;
+    }
+
+    .social-work{
+        margin-left: 2%;
+        width: 97%;
+    }
+
+    .multiyear{
+        white-space: normal;
+    }
+
+    .coding-list{
+        margin: 0 auto;
+    }
+
+    .social-name{
+        font-size: 2.5rem;
+    }
+
+    .award{
+        margin-left: 2%;
+        font-size: 2rem;
+        text-align: left;
+    }
+    
+    .footer{
+        font-size: 1.5rem;
+
+    }
+}
